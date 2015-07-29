@@ -25,7 +25,7 @@ module Inviter
 
     config.middleware.insert_before 0, "Rack::Cors" do
       allow do
-        origins "tech404.io", "www.tech404.io", "localhost:4000"
+        origins "ahkscript.github.io", "lipkau.github.io", "ahkscript.org", "www.ahkscript.org", "ancient-bayou-8275", "localhost:4000"
         resource "/invitations",
           headers: :any,
           methods: [:post],
